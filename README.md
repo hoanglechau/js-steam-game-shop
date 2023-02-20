@@ -1,1 +1,1 @@
-# steam-game-shop
+# js-steam-game-shop
