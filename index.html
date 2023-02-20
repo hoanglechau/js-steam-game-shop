@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Game Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+              alt="STEAM"
+            />
+          </a>
+        </div>
+        <nav class="nav-links">
+          <a class="nav-item" href="./index.html">STORE</a>
+          <a class="nav-item" href="#">COMMUNITY</a>
+          <a class="nav-item" href="#">ABOUT</a>
+          <a class="nav-item" href="#">SUPPORT</a>
+        </nav>
+        <nav class="nav-links-right">
+          <a class="nav-item nav-item-button" href="#"
+            ><img
+              class="install-logo"
+              src="https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1"
+            />Install Steam</a
+          >
+          <a class="nav-item" href="#">login</a>
+          <p>|</p>
+          <a class="nav-item" href="#">language</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="side-bar">
+        <div class="side-bar-container">
+          <form name="searchForm">
+            <div class="search-box">
+              <input
+                id="search-input"
+                name="searchForm"
+                type="text"
+                class="default"
+                placeholder="search"
+                size="22"
+                maxlength="64"
+              />
+              <div class="search-button">
+                <img
+                  src="https://store.cloudflare.steamstatic.com/public/images/blank.gif"
+                  alt="search button"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="genres">
+            <p class="genres-text">BROWSE BY GENRE</p>
+            <ul class="genres-list">
+              <li class="genres-item">Free to Play</li>
+              <li class="genres-item">Early Access</li>
+              <li class="genres-item">Action</li>
+              <li class="genres-item">Adventure</li>
+              <li class="genres-item">Casual</li>
+              <li class="genres-item">Indie</li>
+              <li class="genres-item">Massively Multiplayer</li>
+              <li class="genres-item">Racing</li>
+              <li class="genres-item">RPG</li>
+              <li class="genres-item">Simulation</li>
+              <li class="genres-item">Sports</li>
+              <li class="genres-item">Strategy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="game-gallery" id="gallery"></div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
